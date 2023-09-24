@@ -31,12 +31,10 @@
     section{
         margin: 0 5%;
     }
-    .about-pic{
-        width: 340px;
-    }
-    .about-img{
-        height: 330px;
-    }
+   .about-pic{
+    margin: 0 auto;
+    width: 340px;
+   }
     .profile-img{
         width: 275px;
         height: 275px;
@@ -45,6 +43,9 @@
 
     .about-container{
         margin-top: 0;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        gap: 1rem;
     }
 }
 

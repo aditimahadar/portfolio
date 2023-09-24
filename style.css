@@ -147,6 +147,7 @@ section{
 
 .section-container{
     display: flex;
+    align-items: center;
 }
 
 /*********profile*********/
@@ -267,7 +268,7 @@ section{
 .about-details{
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 90px;
+    /* margin-bottom: 90px; */
 }
 
 .about-container,.about-details{
@@ -303,8 +304,6 @@ section{
 }
 
 .about-img{
-    height: 400px;
-    width: 400px;
     margin: auto 0;
 }
 
