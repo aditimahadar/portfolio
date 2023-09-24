@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">Aditi Mahadar</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About me</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">contact me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="menubar-nav">
+        <div class="logo">Aditi Mahadar</div>
+        <div class="menu">
+            <div class="menu-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()">About me</a></li>
+                <li><a href="#Skills" onclick="togglemenu()">Skills</a></li>
+                <li><a href="#education" onclick="togglemenu()">Education</a></li>
+                <li><a href="#contact" onclick="togglemenu()">contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section-container">
+            <div class="profile-img">
+                <img src="./assets/img1.jpeg" alt="aditi mahadar profile picture">
+            </div>
+            <div class="info">
+                <p class="intro1">
+                    Hello I'm 
+                </p>
+                <h1 class="title">Aditi Mahadar</h1>
+                <p class="intro2">
+                    Web developer
+                </p>
+                <div class="btn-container">
+                    <button class="btn btn-color-1" onclick="window.open('./assets/resume.pdf')">download cv</button>
+                    <button class="btn btn-color-2" onclick="location.href='./#contact me'">contact me</button>
+                </div>
+                <div id="social-container">
+                    <img src="./assets/linkedin.png" alt="my linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/aditi-mahadar-89b4ba213'">
+                    <img src="./assets/github.png" alt="my github profile" class="icon" onclick="location.href='https://github.com/aditimahadar'">
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section id="about">
+        <p class="intro1">Get to know more</p>
+        <h1 class="title">About me</h1>
+        <div class="section-container">
+            <div class="about-img">
+                <img src="./assets/about_img.jpeg" alt="profile picture" class="about-pic">
+            </div>
+            <div class="about-details">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="experience icon" class="icon">
+                        <h3>Intern</h3>
+                        <p>Frontend development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>BCA Bachelors Degree <br/>MCA Master Degree</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p> Web Designer with a demonstrated history of working in the education management industry. Skilled in Html5 , Css3, Javascript, Strong engineering 
+                        professional with a MCA focused in Computer Programming, Specific Applications from KIT'S IMER Kolhapur.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#Skills'"/>
+    </section>
+    <section id="Skills">
+        <p class="intro1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="skill-details">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="Skill-sub-title">Frontend development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>Javascript</h3>
+                                <P>Basic</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>Bootstrap</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="Skill-sub-title">Backend development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>Php</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>Mysql</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>Core Java</h3>
+                                <P>Basic</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>python</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#education'"/>
+    </section>
+    <section id="education">
+        <p class="intro1">Get to know more about</p>
+        <h1 class="title">My Education</h1>
+        <div class="skill-details">
+            <div class="about-container">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <h1>HSC</h1>
+                    </div>
+                    <h3>(Higher School)</h3>
+                    <p class="p1">From - Ligade-Patil Junior College,Karad</p>
+                        <p>Marks obtained - 60.46%</p>
+                        <p>Year Of Passing - 2018</p>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <h1>BCA</h1>
+                    </div>
+                    <h3>(Bachelor in computer application)</h3>
+                    <p class="p1">From - Yashwantrao Mohite Institute Of Management,Karad</p>
+                        <p>CGPA - 8.88</p>
+                        <p>Year Of Passing - 2021</p>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <h1>MCA</h1>
+                    </div>
+                    <h3>(Master in computer application)</h3>
+                    <p class="p1">From - KIT IMER,kolhapur</p>
+                        <p>Marks obtained - 78.31%</p>
+                        <p>Year Of Passing - 2023</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#contact'"/>
+    </section>
+    <section id="contact">
+        <p class="intro1">Get in touch</p>
+        <h1 class="title">Contact Me!</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:adimsanjay1312@gmail.com">adimsanjay1312@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/aditi-mahadar-89b4ba213">LinkedIn </a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">contact me</a></li>
+                </ul> 
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Aditi Mahadar. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
