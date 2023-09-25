@@ -7,6 +7,7 @@
     .about-container{
         flex-wrap: wrap;
     }
+    
 }
 @media screen and (max-width:1200px) {
     #navbar{
@@ -17,7 +18,7 @@
     }
 
     #Skills , .skill-details{
-        margin-top: 2rem;
+        margin-top: 3rem;
     }
     .section-container{
         display: block;
@@ -31,10 +32,10 @@
     section{
         margin: 0 5%;
     }
-   .about-pic{
-    margin: 0 auto;
-    width: 340px;
-   }
+    .about-pic{
+       width: 100%;
+       height: auto;
+    }
     .profile-img{
         width: 275px;
         height: 275px;
@@ -47,6 +48,14 @@
         margin-bottom: 1rem;
         gap: 1rem;
     }
+
+    #about .title{
+        margin-bottom: 2rem;
+    }
+
+    #education .intro1{
+        margin-top: 2rem;
+    }
 }
 
 @media screen and (max-width:600px){
@@ -55,7 +64,7 @@
     }
 
     #profile{
-        height: 83vh;
+        height: 79vh;
         margin-bottom: 0;
     }
      
@@ -68,10 +77,19 @@
         margin-bottom: 2rem;
     }
 
+    .project-container{
+        width: 100%;
+        height: auto;
+    }
+    
+    .project-img{
+        width: 100%;
+        height: auto;
+    }
+    
     .about-container,.contact-info-upper-container,.btn-container{
         flex-wrap: wrap;
     }
-
     .contact-info-container{
         margin: 0;
     }

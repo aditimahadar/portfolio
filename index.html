@@ -8,17 +8,20 @@
     <link rel="stylesheet" href="mediaquery.css">
 </head>
 <body>
+    /******desktop navbar******/
     <nav id="navbar">
         <div class="logo">Aditi Mahadar</div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About me</a></li>
                 <li><a href="#Skills">Skills</a></li>
+                <li><a href="#project">Projects</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#contact">contact me</a></li>
             </ul>
         </div>
     </nav>
+    /*****Mobile-view navbar*****/
     <nav id="menubar-nav">
         <div class="logo">Aditi Mahadar</div>
         <div class="menu">
@@ -30,11 +33,13 @@
             <div class="menu-links">
                 <li><a href="#about" onclick="togglemenu()">About me</a></li>
                 <li><a href="#Skills" onclick="togglemenu()">Skills</a></li>
+                <li><a href="#project" onclick="togglemenu()">Projects</a></li>
                 <li><a href="#education" onclick="togglemenu()">Education</a></li>
                 <li><a href="#contact" onclick="togglemenu()">contact</a></li>
             </div>
         </div>
     </nav>
+    /******profile section(hero section)*******/
     <section id="profile">
         <div class="section-container">
             <div class="profile-img">
@@ -58,8 +63,8 @@
                 </div>
             </div>
         </div>
-        
     </section>
+    /******About section********/
     <section id="about">
         <p class="intro1">Get to know more</p>
         <h1 class="title">About me</h1>
@@ -89,6 +94,7 @@
         </div>
         <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#Skills'"/>
     </section>
+    /******Skill section********/
     <section id="Skills">
         <p class="intro1">Explore My</p>
         <h1 class="title">Skills</h1>
@@ -162,8 +168,39 @@
                 </div>
             </div>
         </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#project'"/>
+    </section>
+    /*******Project section*********/
+    <section id="project">
+        <p class="intro1">Browse my projects</p>
+        <h1 class="title">Projects</h1>
+        <div class="skill-details">
+            <div class="about-container">
+                <div class="details-container project-container">
+                    <div class="article-container">
+                        <img src="./assets/project1.jpg" alt="project1" class="project-img">
+                    </div>
+                    <h2 class="Skill-sub-title project-title">Project 1</h2>
+                    <p class="intro3">Title-Hotel Management System</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2" onclick="location.href='https://github.com/aditimahadar'">Github</button>
+                    </div>
+                </div>  
+                <div class="details-container project-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.jpg" alt="project2" class="project-img">
+                    </div>
+                    <h2 class="Skill-sub-title project-title">Project 2</h2>
+                    <p class="intro3">Title-Education Society web-portal</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/aditimahadar'">Github</button>
+                    </div>
+                </div>  
+            </div>
+        </div>
         <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#education'"/>
     </section>
+    /*******Education section*********/
     <section id="education">
         <p class="intro1">Get to know more about</p>
         <h1 class="title">My Education</h1>
@@ -200,6 +237,7 @@
         </div>
         <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#contact'"/>
     </section>
+    /*******Contact section*********/
     <section id="contact">
         <p class="intro1">Get in touch</p>
         <h1 class="title">Contact Me!</h1>
@@ -214,12 +252,14 @@
             </div>
         </div>
     </section>
+    /****footer section*****/
     <footer>
         <nav>
             <div class="nav-links-container">
                 <ul class="nav-links">
                     <li><a href="#about">About me</a></li>
                     <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#project">Projects</a></li>
                     <li><a href="#education">Education</a></li>
                     <li><a href="#contact">contact me</a></li>
                 </ul> 

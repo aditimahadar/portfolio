@@ -135,7 +135,7 @@ a:hover{
     transform: none;
 }
 
-/***section***/
+/***section common for all***/
 
 section{
     padding-top: 2vh;
@@ -150,7 +150,7 @@ section{
     align-items: center;
 }
 
-/*********profile*********/
+/*********profile section*********/
 
 .profile-img img{
     border-radius: 50%;
@@ -203,7 +203,7 @@ section{
     gap: 1rem;
 }
 
-/*icon in profile section*/
+/*icon */
 
 .icon{
     cursor: pointer;
@@ -211,7 +211,7 @@ section{
 }
 
 
-/*buttons in profile section*/
+/*buttons*/
 
 .btn-container{
     display: flex;
@@ -277,7 +277,8 @@ section{
 
 .about-pic{
     border-radius: 2rem;
-   
+  
+   height: auto;
 }
 
 .arrow{
@@ -343,6 +344,36 @@ article{
 
 article .icon{
     cursor: default;
+}
+
+
+/******project section*****/
+#project{
+    position: relative;
+}
+#project .about-container{
+    justify-content: center;
+}
+.project-img{
+    border-radius: 2rem;
+    width: 400px;
+    height: 250px;
+}
+
+.project-title{
+    margin: 1rem;
+}
+
+.project-btn{
+    border: 1px solid #fff;
+    color: #fff;
+}
+.project-container{
+    flex: none;
+}
+
+.intro3{
+    margin: 1rem 0;
 }
 
 /****education section****/
